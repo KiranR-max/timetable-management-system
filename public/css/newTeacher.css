@@ -1,0 +1,71 @@
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #D6E5FA;
+    position: relative;
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png");
+    display: inline;
+}
+
+.navbar {
+    min-height: 80px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+
+.card {
+    margin: 50px;
+}
+
+.d-flex {
+    padding-left: 600px;
+}
+
+.card-body {
+    background-color: #EDD2F3;
+}
+
+.d {
+    padding-top: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: #F3F0D7;
+    margin: 50px;
+}
+
+ul {
+    size: 2px;
+}
+
+li {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    color: #F3F0D7;
+}
